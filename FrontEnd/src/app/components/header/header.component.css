@@ -1,0 +1,14 @@
+.row{
+    margin: 0%;
+}
+
+div{
+    background: #E4E41C;
+    background-image: linear-gradient(to right, #E4E41C 0%, #8F3DEC 50%, #28ECB1 100%);
+}
+
+app-redes{
+    float: right;
+    margin-top: 15px;
+    margin-right: 10px;
+}

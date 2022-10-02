@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;600&display=swap');
+
+.row{
+    margin: 0%;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*estilo logo ArgProgr*/
+#logoCurso{
+    width: 150px;
+}
+@media (max-width: 575px){
+    #logoCurso{
+        width: 100px;
+    }
+}
+
+/*estilo logo redes sociales*/
+#logo-redes{
+    width: 45px;
+    margin: 4px;
+}
+@media (max-width: 575px){
+    #logo-redes{
+        width: 27px;
+        margin: 2px;
+    }
+}
+
+button{
+    font-family: 'Signika Negative', sans-serif; 
+    margin: 20px;
+}
+
+/*--- Teléfono ---*/
+@media (max-width: 575px){
+    .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    button{
+        width: 80px;
+        font-size: 15px;
+        margin: 10px;
+    }
+}

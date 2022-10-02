@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;600&display=swap');
+
+.row{
+    background-color: #121212;
+    padding: 20px;
+    margin: 0%;
+}
+
+/*estilo título "proyectos*/
+#proyectos{
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: bold;
+    background: #E4E41C;
+    background: linear-gradient(to right, #E4E41C 0%, #8F3DEC 15%, #28ECB1 30%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+ /*estilo nombre de proyectos*/
+#nombre-pr{
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    background: #E4E41C;
+    background: linear-gradient(to right,#8F3DEC 0%, #28ECB1 20%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+ /*estilo fecha de realización proyecto*/
+h2{
+    font-family: 'Signika Negative', sans-serif;
+    color: #cecece;
+    font-size: 20px;
+}
+
+/*estilo descripción proyecto*/
+p{
+    font-family: 'Signika Negative', sans-serif;
+    color: #cecece; 
+}
+
+/*estilo captura proyecto*/
+#captura{
+    position: relative;
+    display: block;
+    object-fit: cover;
+    width: 220px;
+    height: auto;
+    margin-left: 45px;
+    margin-bottom: 20px;
+}

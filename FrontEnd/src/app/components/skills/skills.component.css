@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;600&display=swap');
+
+.row{
+    background-color: #121212;
+    padding: 20px;
+    margin: 0%;
+}
+
+h1{
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: bold;
+    background: #E4E41C;
+    background: linear-gradient(to right, #E4E41C 0%, #8F3DEC 16%, #28ECB1 26%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+
+p{
+    font-family: 'Signika Negative', sans-serif;
+    color: white;
+    font-size: 20px;
+}

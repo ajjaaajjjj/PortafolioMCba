@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;600&display=swap');
+
+.row{
+    padding: 20px;
+    margin: 0%;
+}
+
+div{
+    background-color: #121212;
+    text-align:left;
+}
+
+/*estilo nombre*/
+@media (min-width: 769px){
+    #nombre{
+        font-family: 'Signika Negative', sans-serif;        
+        font-size: 25px;
+        font-weight: bold;
+        text-align: center;
+        position: relative;
+        top: -60px;
+        color: white;
+    }
+}
+@media (min-width: 576px){
+    #nombre{
+        font-family: 'Signika Negative', sans-serif;        
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        position: relative;
+        top: -30px;
+        color: white;
+    }
+}
+@media (max-width: 575px){
+    #nombre{
+        font-family: 'Signika Negative', sans-serif;        
+        font-size: 18px;
+        font-weight: bold;
+        text-align: center;
+        position: relative;
+        top: -40px;
+        color: white;
+    }
+}
+
+/*estilo título de trabajo*/
+@media (min-width: 769px){
+    #titulo{
+        font-family: 'Signika Negative', sans-serif;
+        color: #cecece;
+        text-align: center;
+        position: relative;
+        top: -70px;
+    }
+}
+@media (min-width: 576px){
+    #titulo{
+        font-family: 'Signika Negative', sans-serif; 
+        color: #cecece;
+        text-align: center;
+        position: relative;
+        top: -40px;
+    }
+}
+@media (max-width: 575px){
+    #titulo{
+        font-family: 'Signika Negative', sans-serif;
+        font-size: 14px;
+        color: #cecece;
+        text-align: center; 
+        position: relative;
+        top: -55px;
+    }
+}
+
+/*estilo info del usuario*/
+#info-usuario{
+    font-family: 'Signika Negative', sans-serif;
+    color: #cecece;
+}
+
+/*estilo "acerca de"*/
+h1{
+    font-family: 'Signika Negative', sans-serif;
+    background: #E4E41C;
+    background: linear-gradient(to right, #E4E41C 0%, #8F3DEC 15%, #28ECB1 25%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    font-weight: bold;
+}
+
+/*estilo foto de perfil*/
+@media (min-width: 769px){
+    #foto-perfil{
+        position: relative;
+        height: 220px;
+        width: 220px;
+        border-radius: 100%;
+        margin-left: 10px;
+        top: -70px;
+        display: block;
+        object-fit: cover;
+        margin: auto;
+    }
+}
+@media (min-width: 576px){
+    #foto-perfil{
+        position: relative;
+        height: 150px;
+        width: 150px;
+        border-radius: 100%;
+        top: -40px;
+        display: block;
+        object-fit: cover;
+        margin: auto;
+    }
+}
+@media (max-width: 575px){
+    #foto-perfil{
+        position: relative;
+        height: 100px;
+        width: 100px;
+        border-radius: 100%;
+        top: -40px;
+        display: block;
+        object-fit: cover;
+        margin: auto;
+    }
+}
