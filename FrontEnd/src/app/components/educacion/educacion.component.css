@@ -6,21 +6,17 @@
     margin: 0%;
 }
 
-h1, h3, img{
+h1, img{
     display: inline;
 }
 
-li{
-    color:#121212;
-}
-
- /*estilo título "educacion"*/
+/*estilo título "educacion"*/
 #educacion{
     font-family: 'Signika Negative', sans-serif;
     font-weight: bold;
     background: #E4E41C;
     background: linear-gradient(to right, #E4E41C 0%, #8F3DEC 10%, #28ECB1 15%);
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent; 
 }
 
@@ -31,17 +27,30 @@ li{
     font-weight: bold;
     background: #E4E41C;
     background: linear-gradient(to right,#8F3DEC 0%, #28ECB1 100%);
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent; 
 }
- /*estilo (años)*/
+
+/*estilo (años)*/
 #anios{
     font-family: 'Signika Negative', sans-serif;
     color: #cecece;
-    font-size: 20px;
+    font-size: 18px;
 }
- /*estilo infromación académica*/
+
+/*estilo infromación académica*/
 p{
     font-family: 'Signika Negative', sans-serif;
     color: #cecece; 
+}
+
+/*estilo logo institución educativa*/
+#logo-esc{
+    position: relative;
+    display: block;
+    object-fit: cover;
+    width: 180px;
+    height: 120px;
+    margin: auto;
+    margin-bottom: 20px;
 }

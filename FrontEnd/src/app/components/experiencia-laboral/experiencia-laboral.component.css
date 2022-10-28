@@ -6,31 +6,28 @@
     margin: 0%;
 }
 
-h1, h3, img{
+h1, img{
     display: inline;
 }
 
-li{
-    color:#121212;
-}
-
- /*estilo título "experiencia laboral"*/
+/*estilo título "experiencia laboral"*/
 #experiencia{
     font-family: 'Signika Negative', sans-serif;
     font-weight: bold;
     background: #E4E41C;
     background: linear-gradient(to right, #E4E41C 0%, #8F3DEC 15%, #28ECB1 30%);
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent; 
 }
 
 /*estilo puesto de trabajo*/
 #trabajo{
     font-family: 'Signika Negative', sans-serif;
+    font-size: 25px;
     font-weight: bold;
     background: #E4E41C;
     background: linear-gradient(to right,#8F3DEC 0%, #28ECB1 100%);
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
@@ -38,11 +35,22 @@ li{
 #anios{
     font-family: 'Signika Negative', sans-serif;
     color: #cecece;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 /*estilo información del trabajo*/
 p{
     font-family: 'Signika Negative', sans-serif;
     color: #cecece; 
+}
+
+/*estilo logo lugar de trabajo*/
+#logo-trjo{
+    position: relative;
+    display: block;
+    object-fit: cover;
+    width: 180px;
+    height: 120px;
+    margin: auto;
+    margin-bottom: 20px;
 }

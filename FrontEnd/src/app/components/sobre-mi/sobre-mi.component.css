@@ -86,7 +86,7 @@ h1{
     font-family: 'Signika Negative', sans-serif;
     background: #E4E41C;
     background: linear-gradient(to right, #E4E41C 0%, #8F3DEC 15%, #28ECB1 25%);
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent; 
     font-weight: bold;
 }

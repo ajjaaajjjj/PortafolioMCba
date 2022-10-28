@@ -12,7 +12,7 @@
     font-weight: bold;
     background: #E4E41C;
     background: linear-gradient(to right, #E4E41C 0%, #8F3DEC 15%, #28ECB1 30%);
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
@@ -23,7 +23,7 @@
     font-weight: bold;
     background: #E4E41C;
     background: linear-gradient(to right,#8F3DEC 0%, #28ECB1 20%);
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
@@ -31,7 +31,7 @@
 h2{
     font-family: 'Signika Negative', sans-serif;
     color: #cecece;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 /*estilo descripción proyecto*/
@@ -46,7 +46,20 @@ p{
     display: block;
     object-fit: cover;
     width: 220px;
-    height: auto;
+    height: 150px;
     margin-left: 45px;
     margin-bottom: 20px;
+}
+ 
+/*--- Teléfono ---*/
+@media (max-width: 575px){
+    #captura{
+        position: relative;
+        display: block;
+        object-fit: cover;
+        width: 220px;
+        height: 150px;
+        margin: auto;
+        margin-bottom: 20px;
+    }
 }
