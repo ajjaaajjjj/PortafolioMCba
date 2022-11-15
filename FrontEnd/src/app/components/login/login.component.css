@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;600&display=swap');
+
+section{
+    background: #121212;
+}
+
+/*Estilo foto inicio de sesión*/
+#inicio-sesion{
+    width: 180px;
+    border-radius: 100%;
+    margin: 15px;
+}
+
+/*Estilo logo del curso*/
+.arg-pr{
+    width: 300px;
+}
+
+/*Estilo sección registro*/
+#registro{
+    position: relative;
+    display: block;
+    margin-top: 80px;
+}
+
+/*Estilo de letra*/
+h2, label, button, p {
+    font-family: 'Signika Negative', sans-serif;
+}
+
+h2{
+    font-weight: bold;
+    color: #121212;
+    text-align: center;
+}
+
+a{
+    font-size: 18px;
+    color: white;
+    display: block;
+    text-align: center;
+}
+
+/*Estilo degradé*/
+.gradient-custom {
+    background: #E4E41C;
+    background: linear-gradient(to right, #E4E41C 0%, #8F3DEC 50%, #28ECB1 100%);
+    }
+    
+/*---Large---*/
+@media (max-width: 991px) {
+    #inicio-sesion{
+        width: 150px;
+        border-radius: 100%;
+        margin: 15px;
+    }
+
+    #registro{
+        position: relative;
+        display: block;
+        margin-top: 15px;
+    }
+}
+
+/*---Medium---*/
+@media (max-width: 767px) {
+    #inicio-sesion{
+        width: 120px;
+        border-radius: 100%;
+        margin: 15px;
+    }
+
+    h2{
+        font-size: 20px;
+        font-weight: bold;
+        color: #121212;
+        text-align: center;
+    }
+
+    a{
+        font-size: 16px;
+        color: white;
+        display: block;
+        text-align: center;
+    }
+}
+
+/*---Small---*/
+@media (max-width: 575px) {
+    #inicio-sesion{
+        width: 100px;
+        border-radius: 100%;
+        margin: 15px;
+    }
+
+    h2{
+        font-size: 17px;
+        font-weight: bold;
+        color: #121212;
+        text-align: center;
+    }
+
+    a{
+        font-size: 13px;
+        color: white;
+        display: block;
+        text-align: center;
+    }
+}
